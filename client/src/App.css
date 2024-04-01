@@ -1,0 +1,75 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 100px;
+  color: #2c3e50;
+  font-weight: 200;
+}
+
+input {
+  font-size: 20px;
+  color: #2c3e50;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+
+
+.task {
+  background-color: blue;
+  padding: 3px;
+  margin: 5px;
+  list-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-height: 50px;
+}
+
+.task span {
+  color: white;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.button.selected{
+  color: white;
+  background-color: grey;
+}
